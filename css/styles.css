@@ -1,0 +1,348 @@
+body {
+  margin: 0
+}
+
+
+html {
+  background-color: white;
+}
+
+.dotted-hr-top-container {
+  border: dotted #FF8B0D 10px;
+  border-bottom: none;
+  width: 7.5%;
+}
+
+.dotted-hr {
+  border: dotted #FF8B0D 10px;
+  border-bottom: none;
+  width: 5%;
+}
+
+.submit-btn {
+  border: 1px solid black;
+  padding: 9px 10px;
+  margin-left: 0;
+  background-color: #FF8B0D;
+  border-radius: 10px;
+  color: #00665E;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #FFCC94;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/******************************************** IMAGE STYLING *********************************************/
+
+.homepage-img {
+  position: absolute;
+  height: 700px;
+  z-index: -1;
+  margin: 0px auto;
+  left: 0
+}
+
+/******************************************** FONTS STYLING *********************************************/
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  position: absolute;
+  font-size: 45px;
+  text-align: right;
+  color: #00665E;
+  top: 10px;
+  right: 175px;
+  width: 40%;
+  text-shadow: 1px 1px black;
+}
+
+h2 {
+  font-size: 40px;
+  color: #00665E;
+}
+
+.third-container-sub p {
+  color: #3C423D;
+}
+
+.steps h3 {
+  color: #3C423D;
+}
+
+.card-wrap {
+  color: #3C423D;
+}
+
+input {
+  border: 1px solid black;
+  width: 200px;
+  height: 30px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.footer p {
+  padding-top: 18px;
+  color: #FF8B0D;
+}
+
+/******************************************** CONTAINER STYLING *********************************************/
+.header {
+  height: 80px;
+  background-color: #00665E;
+  margin: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.footer {
+  text-align: center;
+  margin: 0;
+  background-color: #00665E;
+  height: 60px;
+}
+
+.top-container {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+  line-height: 1.5;
+  letter-spacing: 2px;
+
+}
+
+.second-container{
+  height: 550px;
+  width: 60%;
+  text-align: center;
+  margin: 80px auto;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.third-container{
+  height: 400px;
+  width: 70%;
+  text-align: center;
+  margin: 80px auto;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.third-container-sub {
+  text-align: left;
+}
+
+.fourth-container{
+  height: 550px;
+  width: 80%;
+  text-align: center;
+  margin: 80px auto;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.dropdown-content {
+  z-index: 100;
+}
+
+
+/******************************************** CARD STYLING *********************************************/
+.card {
+  display: inline-block;
+  position: absolute;
+  background-color: #F5F5F5;
+  margin: 0px 100px;
+  padding: 15px 25px;
+  transition: 0.3s
+}
+
+.card:hover {
+  box-shadow: 0 16px 24px 0 #FF8B0D;
+}
+
+.card-container {
+  border-radius: 10px;
+}
+
+.card-container-main {
+  box-shadow: 0px 0px 8px 8px #00665E;
+}
+
+.card-container-main:hover {
+  box-shadow: 0px 0px 16px 16px white;
+}
+
+.card-container-main > a > h4:hover {
+  color: white;
+}
+
+.card-container > a {
+  text-decoration: none;
+  padding: 0px;
+}
+
+.card-container > a > h4{
+  background-color: #FF8B0D;
+  color: #00665E;
+  padding: 10px 20px;
+  border-radius: 10px 10px;
+}
+
+.grocery-card {
+  display: inline-block;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  border-radius: 50px;
+}
+
+.pharmacy-card {
+  display: inline-block;
+  position: absolute;
+  top: 300px;
+  right: 400px;
+  border-radius: 50px;
+}
+
+.grocery-card, .pharmacy-card {
+  font-size: 45px;
+}
+
+.courier-card, .vendor-card {
+  width: 350px;
+  background-color: #F5F5F5;
+  border-radius: 50px;
+}
+
+.vendor-card {
+  left: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.courier-card {
+  right: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.vendor-icon {
+  margin-top: 25px;
+  height: 225px;
+  padding: 0px 25px;
+}
+
+.courier-icon {
+  margin-top: 25px;
+  height: 225px;
+}
+
+.steps {
+  box-shadow: 0 4px 8px 0px rgba(0,0,0,0.2);
+  margin: 15px auto;
+  padding: 10px 0px;
+  text-align: left;
+  background-color: #F5F5F5;
+}
+
+.steps > h3 {
+  padding-left: 25px;
+}
+
+.step-number{
+  color: #FF8B0D
+}
+
+
+
+/******************************************** HEADER/NAV BAR *********************************************/
+.header-logo {
+  height: 66px;
+  padding-top: 7px;
+  padding-left: 100px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FF8B0D;
+  position: relative;
+}
+
+.right-nav-item {
+  margin-right: 100px;
+  color: #FF8B0D;
+}
+
+nav a:hover {
+  color: #FFCC94;
+  font-weight: bold;
+}
+
+.hover-underline::before {
+  content:'';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFCC94;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 70px;
+  width: 200px;
+  overflow: hidden;
+  background-color: #00665E;
+  max-height: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.dropdown-sub{
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.dropdown-sub ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.dropdown-item:focus ~ .dropdown-content {
+  display:block;
+  max-height: 400px;
+  -webkit-transition: max-height 0.4s ease-in;
+  -moz-transition: max-height 0.4s ease-in;
+  transition: max-height 0.4s ease-in;
+}
